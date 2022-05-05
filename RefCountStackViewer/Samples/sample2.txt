@@ -1,0 +1,1519 @@
+
+000 2
+Office.UI.Xaml.OneNote.dll!Platform::Details::ControlBlock::IncrementStrongReference
+	Office.UI.Xaml.OneNote.dll!__abi_FTMWeakRefData::Increment
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Platform::Object]::__abi_AddRef
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::ComBase::AddRefOuter
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DependencyObject::QueryInterfaceImpl
+	Windows.UI.Xaml.dll!DirectUI::UIElementGenerated::QueryInterfaceImpl
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::UIElement::QueryInterfaceImpl
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::FrameworkElementGenerated::QueryInterfaceImpl
+	Windows.UI.Xaml.dll!DirectUI::ControlGenerated::QueryInterfaceImpl
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::PageGenerated::QueryInterfaceImpl
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::ComObject<DirectUI::Page>::QueryInterfaceImplBase
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::ComObjectBase::NonDelegatingQueryInterfaceBase
+	Windows.UI.Xaml.dll!ctl::ComObject<DirectUI::Page>::NonDelegatingQueryInterface
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Platform::Object]::__abi_QueryInterface
+	Windows.UI.Xaml.dll!ctl::do_query_interface<Windows::UI::Xaml::IDependencyObject,IInspectable>
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::do_get_value
+	Windows.UI.Xaml.dll!DirectUI::ExternalObjectReference::ShouldBeWrapped
+	Windows.UI.Xaml.dll!DirectUI::ExternalObjectReference::ConditionalWrap
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplication::LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocationImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocation
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::IApplicationStatics::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::Application::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Office::UI::Xaml::OneNote::__ICentralPanelPublicNonVirtuals]::InitializeComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::InitializeOXamlComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::CentralPanel
+	Office.UI.Xaml.OneNote.dll!ActivateType_Office_UI_Xaml_OneNote_CentralPanel
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::ActivateInstance
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::__abi_Windows_UI_Xaml_Markup_IXamlType____abi_ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::LoadContent
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::GetContent
+	Windows.UI.Xaml.dll!DirectUI::Frame::PerformNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::StartNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	OneNoteIm.exe!CApplication::NavigateFrame
+	OneNoteIm.exe!CApplication::InitAppFMsUIAsync::__l2::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<CApplication::FastModelUIValues,0>::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<CApplication::FastModelUIValues <lambda>(void),CApplication::FastModelUIValues>::_Do_call
+	OneNoteIm.exe!std::_Func_class<CApplication::FastModelUIValues>::operator()
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::LogWorkItemAndInvokeUserLambda<std::function<CApplication::FastModelUIValues __cdecl(void)> >
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::Init
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::_Perform
+	OneNoteIm.exe!opplx::details::_PPLTaskHandle<CApplication::FastModelUIValues,Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>,opplx::details::_TaskProcHandle>::invoke
+	OneNoteIm.exe!opplx::details::_Task_impl_base::_ScheduleTask::__l3::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<void,1>::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<void <lambda>(void),void>::_Do_call
+	OneNoteIm.exe!std::_Func_class<void>::operator()
+	OneNoteIm.exe!Mso::Details::FunctionObjectWrapper<std::function<void __cdecl(void)>,void>::Invoke
+	Mso20Imm.dll!Mso::Functor<void __cdecl(void)>::operator()
+	Mso20Imm.dll!Mso::Async::BatchImpl::BatchWorkerCallback::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!FastModel::Details::ContextCallbackWrapper::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::SequentialDispatchQueueBase::InvokeCore
+	Mso20Imm.dll!Mso::Async::UIDispatchQueue::Invoke
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessInvokeItem
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessMessage
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::WaitAndProcessMessagesInternal
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessEvents
+	Windows.UI.Xaml.dll!CJupiterWindow::RunCoreWindowMessageLoop
+	[Inline Frame] Windows.UI.Xaml.dll!CJupiterControl::RunMessageLoop
+	Windows.UI.Xaml.dll!DirectUI::DXamlCore::RunMessageLoop
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationView::Run
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationViewAgileContainer::RuntimeClassInitialize::__l2::<lambda>
+	SHCore.dll!_WrapperThreadProc
+	kernel32.dll!BaseThreadInitThunk
+	ntdll.dll!RtlUserThreadStart
+	
+000 1
+Office.UI.Xaml.OneNote.dll!Platform::Details::ControlBlock::DecrementStrongReference
+	Office.UI.Xaml.OneNote.dll!__abi_FTMWeakRefData::Decrement
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Platform::Object]::__abi_Release
+	Windows.UI.Xaml.dll!DirectUI::ExternalObjectReference::ShouldBeWrapped
+	Windows.UI.Xaml.dll!DirectUI::ExternalObjectReference::ConditionalWrap
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplication::LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocationImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocation
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::IApplicationStatics::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::Application::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Office::UI::Xaml::OneNote::__ICentralPanelPublicNonVirtuals]::InitializeComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::InitializeOXamlComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::CentralPanel
+	Office.UI.Xaml.OneNote.dll!ActivateType_Office_UI_Xaml_OneNote_CentralPanel
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::ActivateInstance
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::__abi_Windows_UI_Xaml_Markup_IXamlType____abi_ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::LoadContent
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::GetContent
+	Windows.UI.Xaml.dll!DirectUI::Frame::PerformNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::StartNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	OneNoteIm.exe!CApplication::NavigateFrame
+	OneNoteIm.exe!CApplication::InitAppFMsUIAsync::__l2::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<CApplication::FastModelUIValues,0>::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<CApplication::FastModelUIValues <lambda>(void),CApplication::FastModelUIValues>::_Do_call
+	OneNoteIm.exe!std::_Func_class<CApplication::FastModelUIValues>::operator()
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::LogWorkItemAndInvokeUserLambda<std::function<CApplication::FastModelUIValues __cdecl(void)> >
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::Init
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::_Perform
+	OneNoteIm.exe!opplx::details::_PPLTaskHandle<CApplication::FastModelUIValues,Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>,opplx::details::_TaskProcHandle>::invoke
+	OneNoteIm.exe!opplx::details::_Task_impl_base::_ScheduleTask::__l3::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<void,1>::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<void <lambda>(void),void>::_Do_call
+	OneNoteIm.exe!std::_Func_class<void>::operator()
+	OneNoteIm.exe!Mso::Details::FunctionObjectWrapper<std::function<void __cdecl(void)>,void>::Invoke
+	Mso20Imm.dll!Mso::Functor<void __cdecl(void)>::operator()
+	Mso20Imm.dll!Mso::Async::BatchImpl::BatchWorkerCallback::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!FastModel::Details::ContextCallbackWrapper::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::SequentialDispatchQueueBase::InvokeCore
+	Mso20Imm.dll!Mso::Async::UIDispatchQueue::Invoke
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessInvokeItem
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessMessage
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::WaitAndProcessMessagesInternal
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessEvents
+	Windows.UI.Xaml.dll!CJupiterWindow::RunCoreWindowMessageLoop
+	[Inline Frame] Windows.UI.Xaml.dll!CJupiterControl::RunMessageLoop
+	Windows.UI.Xaml.dll!DirectUI::DXamlCore::RunMessageLoop
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationView::Run
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationViewAgileContainer::RuntimeClassInitialize::__l2::<lambda>
+	SHCore.dll!_WrapperThreadProc
+	kernel32.dll!BaseThreadInitThunk
+	ntdll.dll!RtlUserThreadStart
+	
+000 2
+Office.UI.Xaml.OneNote.dll!Platform::Details::ControlBlock::IncrementStrongReference
+	Office.UI.Xaml.OneNote.dll!__abi_FTMWeakRefData::Increment
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Platform::Object]::__abi_AddRef
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::ComBase::AddRefOuter
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DependencyObject::QueryInterfaceImpl
+	Windows.UI.Xaml.dll!DirectUI::UIElementGenerated::QueryInterfaceImpl
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::UIElement::QueryInterfaceImpl
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::FrameworkElementGenerated::QueryInterfaceImpl
+	Windows.UI.Xaml.dll!DirectUI::ControlGenerated::QueryInterfaceImpl
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::PageGenerated::QueryInterfaceImpl
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::ComObject<DirectUI::Page>::QueryInterfaceImplBase
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::ComObjectBase::NonDelegatingQueryInterfaceBase
+	Windows.UI.Xaml.dll!ctl::ComObject<DirectUI::Page>::NonDelegatingQueryInterface
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Platform::Object]::__abi_QueryInterface
+	Windows.UI.Xaml.dll!ctl::do_query_interface<Windows::UI::Xaml::IDependencyObject,IInspectable>
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::do_get_value
+	Windows.UI.Xaml.dll!DirectUI::ExternalObjectReference::ConditionalWrap
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplication::LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocationImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocation
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::IApplicationStatics::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::Application::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Office::UI::Xaml::OneNote::__ICentralPanelPublicNonVirtuals]::InitializeComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::InitializeOXamlComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::CentralPanel
+	Office.UI.Xaml.OneNote.dll!ActivateType_Office_UI_Xaml_OneNote_CentralPanel
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::ActivateInstance
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::__abi_Windows_UI_Xaml_Markup_IXamlType____abi_ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::LoadContent
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::GetContent
+	Windows.UI.Xaml.dll!DirectUI::Frame::PerformNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::StartNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	OneNoteIm.exe!CApplication::NavigateFrame
+	OneNoteIm.exe!CApplication::InitAppFMsUIAsync::__l2::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<CApplication::FastModelUIValues,0>::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<CApplication::FastModelUIValues <lambda>(void),CApplication::FastModelUIValues>::_Do_call
+	OneNoteIm.exe!std::_Func_class<CApplication::FastModelUIValues>::operator()
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::LogWorkItemAndInvokeUserLambda<std::function<CApplication::FastModelUIValues __cdecl(void)> >
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::Init
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::_Perform
+	OneNoteIm.exe!opplx::details::_PPLTaskHandle<CApplication::FastModelUIValues,Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>,opplx::details::_TaskProcHandle>::invoke
+	OneNoteIm.exe!opplx::details::_Task_impl_base::_ScheduleTask::__l3::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<void,1>::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<void <lambda>(void),void>::_Do_call
+	OneNoteIm.exe!std::_Func_class<void>::operator()
+	OneNoteIm.exe!Mso::Details::FunctionObjectWrapper<std::function<void __cdecl(void)>,void>::Invoke
+	Mso20Imm.dll!Mso::Functor<void __cdecl(void)>::operator()
+	Mso20Imm.dll!Mso::Async::BatchImpl::BatchWorkerCallback::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!FastModel::Details::ContextCallbackWrapper::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::SequentialDispatchQueueBase::InvokeCore
+	Mso20Imm.dll!Mso::Async::UIDispatchQueue::Invoke
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessInvokeItem
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessMessage
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::WaitAndProcessMessagesInternal
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessEvents
+	Windows.UI.Xaml.dll!CJupiterWindow::RunCoreWindowMessageLoop
+	[Inline Frame] Windows.UI.Xaml.dll!CJupiterControl::RunMessageLoop
+	Windows.UI.Xaml.dll!DirectUI::DXamlCore::RunMessageLoop
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationView::Run
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationViewAgileContainer::RuntimeClassInitialize::__l2::<lambda>
+	SHCore.dll!_WrapperThreadProc
+	kernel32.dll!BaseThreadInitThunk
+	ntdll.dll!RtlUserThreadStart
+	
+000 3
+Office.UI.Xaml.OneNote.dll!Platform::Details::ControlBlock::IncrementStrongReference
+	Office.UI.Xaml.OneNote.dll!__abi_FTMWeakRefData::Increment
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Platform::Object]::__abi_AddRef
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::addref_interface
+	Windows.UI.Xaml.dll!DirectUI::DXamlCore::GetPeerPrivate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DXamlCore::GetPeerPrivate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DXamlCore::GetPeerPrivate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DXamlCore::TryGetPeer
+	Windows.UI.Xaml.dll!DirectUI::DependencyObject::EnterImpl
+	Windows.UI.Xaml.dll!CFxCallbacks::DependencyObject_EnterImpl
+	Windows.UI.Xaml.dll!CUIElement::EnterImpl
+	Windows.UI.Xaml.dll!CFrameworkElement::EnterImpl
+	Windows.UI.Xaml.dll!CControl::EnterImpl
+	Windows.UI.Xaml.dll!CUserControl::EnterImpl
+	Windows.UI.Xaml.dll!CDependencyObject::Enter
+	Windows.UI.Xaml.dll!CCoreServices::PostParseRegisterNames
+	Windows.UI.Xaml.dll!CParser::CreateNamescope
+	Windows.UI.Xaml.dll!CParser::LoadXamlCore
+	[Inline Frame] Windows.UI.Xaml.dll!CParser::LoadXaml
+	Windows.UI.Xaml.dll!CCoreServices::ParseXamlWithExistingFrameworkRoot
+	Windows.UI.Xaml.dll!CApplication::LoadComponent
+	Windows.UI.Xaml.dll!Application_LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplication::LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocationImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocation
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::IApplicationStatics::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::Application::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Office::UI::Xaml::OneNote::__ICentralPanelPublicNonVirtuals]::InitializeComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::InitializeOXamlComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::CentralPanel
+	Office.UI.Xaml.OneNote.dll!ActivateType_Office_UI_Xaml_OneNote_CentralPanel
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::ActivateInstance
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::__abi_Windows_UI_Xaml_Markup_IXamlType____abi_ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::LoadContent
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::GetContent
+	Windows.UI.Xaml.dll!DirectUI::Frame::PerformNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::StartNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	OneNoteIm.exe!CApplication::NavigateFrame
+	OneNoteIm.exe!CApplication::InitAppFMsUIAsync::__l2::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<CApplication::FastModelUIValues,0>::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<CApplication::FastModelUIValues <lambda>(void),CApplication::FastModelUIValues>::_Do_call
+	OneNoteIm.exe!std::_Func_class<CApplication::FastModelUIValues>::operator()
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::LogWorkItemAndInvokeUserLambda<std::function<CApplication::FastModelUIValues __cdecl(void)> >
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::Init
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::_Perform
+	OneNoteIm.exe!opplx::details::_PPLTaskHandle<CApplication::FastModelUIValues,Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>,opplx::details::_TaskProcHandle>::invoke
+	OneNoteIm.exe!opplx::details::_Task_impl_base::_ScheduleTask::__l3::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<void,1>::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<void <lambda>(void),void>::_Do_call
+	OneNoteIm.exe!std::_Func_class<void>::operator()
+	OneNoteIm.exe!Mso::Details::FunctionObjectWrapper<std::function<void __cdecl(void)>,void>::Invoke
+	Mso20Imm.dll!Mso::Functor<void __cdecl(void)>::operator()
+	Mso20Imm.dll!Mso::Async::BatchImpl::BatchWorkerCallback::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!FastModel::Details::ContextCallbackWrapper::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::SequentialDispatchQueueBase::InvokeCore
+	Mso20Imm.dll!Mso::Async::UIDispatchQueue::Invoke
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessInvokeItem
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessMessage
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::WaitAndProcessMessagesInternal
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessEvents
+	Windows.UI.Xaml.dll!CJupiterWindow::RunCoreWindowMessageLoop
+	[Inline Frame] Windows.UI.Xaml.dll!CJupiterControl::RunMessageLoop
+	Windows.UI.Xaml.dll!DirectUI::DXamlCore::RunMessageLoop
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationView::Run
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationViewAgileContainer::RuntimeClassInitialize::__l2::<lambda>
+	SHCore.dll!_WrapperThreadProc
+	kernel32.dll!BaseThreadInitThunk
+	ntdll.dll!RtlUserThreadStart
+	
+000 2
+Office.UI.Xaml.OneNote.dll!Platform::Details::ControlBlock::DecrementStrongReference
+	Office.UI.Xaml.OneNote.dll!__abi_FTMWeakRefData::Decrement
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Platform::Object]::__abi_Release
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::release_interface
+	Windows.UI.Xaml.dll!DirectUI::DependencyObject::EnterImpl
+	Windows.UI.Xaml.dll!CFxCallbacks::DependencyObject_EnterImpl
+	Windows.UI.Xaml.dll!CUIElement::EnterImpl
+	Windows.UI.Xaml.dll!CFrameworkElement::EnterImpl
+	Windows.UI.Xaml.dll!CControl::EnterImpl
+	Windows.UI.Xaml.dll!CUserControl::EnterImpl
+	Windows.UI.Xaml.dll!CDependencyObject::Enter
+	Windows.UI.Xaml.dll!CCoreServices::PostParseRegisterNames
+	Windows.UI.Xaml.dll!CParser::CreateNamescope
+	Windows.UI.Xaml.dll!CParser::LoadXamlCore
+	[Inline Frame] Windows.UI.Xaml.dll!CParser::LoadXaml
+	Windows.UI.Xaml.dll!CCoreServices::ParseXamlWithExistingFrameworkRoot
+	Windows.UI.Xaml.dll!CApplication::LoadComponent
+	Windows.UI.Xaml.dll!Application_LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplication::LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocationImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocation
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::IApplicationStatics::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::Application::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Office::UI::Xaml::OneNote::__ICentralPanelPublicNonVirtuals]::InitializeComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::InitializeOXamlComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::CentralPanel
+	Office.UI.Xaml.OneNote.dll!ActivateType_Office_UI_Xaml_OneNote_CentralPanel
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::ActivateInstance
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::__abi_Windows_UI_Xaml_Markup_IXamlType____abi_ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::LoadContent
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::GetContent
+	Windows.UI.Xaml.dll!DirectUI::Frame::PerformNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::StartNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	OneNoteIm.exe!CApplication::NavigateFrame
+	OneNoteIm.exe!CApplication::InitAppFMsUIAsync::__l2::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<CApplication::FastModelUIValues,0>::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<CApplication::FastModelUIValues <lambda>(void),CApplication::FastModelUIValues>::_Do_call
+	OneNoteIm.exe!std::_Func_class<CApplication::FastModelUIValues>::operator()
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::LogWorkItemAndInvokeUserLambda<std::function<CApplication::FastModelUIValues __cdecl(void)> >
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::Init
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::_Perform
+	OneNoteIm.exe!opplx::details::_PPLTaskHandle<CApplication::FastModelUIValues,Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>,opplx::details::_TaskProcHandle>::invoke
+	OneNoteIm.exe!opplx::details::_Task_impl_base::_ScheduleTask::__l3::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<void,1>::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<void <lambda>(void),void>::_Do_call
+	OneNoteIm.exe!std::_Func_class<void>::operator()
+	OneNoteIm.exe!Mso::Details::FunctionObjectWrapper<std::function<void __cdecl(void)>,void>::Invoke
+	Mso20Imm.dll!Mso::Functor<void __cdecl(void)>::operator()
+	Mso20Imm.dll!Mso::Async::BatchImpl::BatchWorkerCallback::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!FastModel::Details::ContextCallbackWrapper::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::SequentialDispatchQueueBase::InvokeCore
+	Mso20Imm.dll!Mso::Async::UIDispatchQueue::Invoke
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessInvokeItem
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessMessage
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::WaitAndProcessMessagesInternal
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessEvents
+	Windows.UI.Xaml.dll!CJupiterWindow::RunCoreWindowMessageLoop
+	[Inline Frame] Windows.UI.Xaml.dll!CJupiterControl::RunMessageLoop
+	Windows.UI.Xaml.dll!DirectUI::DXamlCore::RunMessageLoop
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationView::Run
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationViewAgileContainer::RuntimeClassInitialize::__l2::<lambda>
+	SHCore.dll!_WrapperThreadProc
+	kernel32.dll!BaseThreadInitThunk
+	ntdll.dll!RtlUserThreadStart
+	
+The thread 0x62dc has exited with code 0 (0x0).
+000 3
+Office.UI.Xaml.OneNote.dll!Platform::Details::ControlBlock::IncrementStrongReference
+	Office.UI.Xaml.OneNote.dll!__abi_FTMWeakRefData::Increment
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Platform::Object]::__abi_AddRef
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::addref_interface
+	Windows.UI.Xaml.dll!DirectUI::DXamlCore::GetPeerPrivate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DXamlCore::GetPeerPrivate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DXamlCore::GetPeerPrivate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DXamlCore::TryGetPeer
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DependencyObject::NotifyPropertyChanged
+	[Inline Frame] Windows.UI.Xaml.dll!CFxCallbacks::DependencyObject_NotifyPropertyChanged
+	[Inline Frame] Windows.UI.Xaml.dll!CDependencyObject::NotifyPropertyChanged
+	Windows.UI.Xaml.dll!CDependencyObject::SetEffectiveValue
+	Windows.UI.Xaml.dll!CDependencyObject::UpdateEffectiveValue
+	Windows.UI.Xaml.dll!CDependencyObject::SetValue
+	Windows.UI.Xaml.dll!CUIElement::SetValue
+	Windows.UI.Xaml.dll!CFrameworkElement::SetValue
+	Windows.UI.Xaml.dll!CControl::SetValue
+	Windows.UI.Xaml.dll!CUserControl::SetValue
+	Windows.UI.Xaml.dll!CDependencyObject::SetValue
+	Windows.UI.Xaml.dll!XamlNativeRuntime::SetValue
+	[Inline Frame] Windows.UI.Xaml.dll!XamlProperty::SetValue
+	Windows.UI.Xaml.dll!ObjectWriterRuntime::SetValueImpl
+	Windows.UI.Xaml.dll!ObjectWriterRuntime::StoreSourceInformationHelper
+	[Inline Frame] Windows.UI.Xaml.dll!ObjectWriterRuntime::BeginInitImpl
+	[Inline Frame] Windows.UI.Xaml.dll!ObjectWriterCommonRuntime::BeginInit
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::BeginInitOnCurrentInstance
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::WriteNode
+	Windows.UI.Xaml.dll!CParser::LoadXamlCore
+	[Inline Frame] Windows.UI.Xaml.dll!CParser::LoadXaml
+	Windows.UI.Xaml.dll!CCoreServices::ParseXamlWithExistingFrameworkRoot
+	Windows.UI.Xaml.dll!CApplication::LoadComponent
+	Windows.UI.Xaml.dll!Application_LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplication::LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocationImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocation
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::IApplicationStatics::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::Application::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Office::UI::Xaml::OneNote::__ICentralPanelPublicNonVirtuals]::InitializeComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::InitializeOXamlComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::CentralPanel
+	Office.UI.Xaml.OneNote.dll!ActivateType_Office_UI_Xaml_OneNote_CentralPanel
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::ActivateInstance
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::__abi_Windows_UI_Xaml_Markup_IXamlType____abi_ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::LoadContent
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::GetContent
+	Windows.UI.Xaml.dll!DirectUI::Frame::PerformNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::StartNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	OneNoteIm.exe!CApplication::NavigateFrame
+	OneNoteIm.exe!CApplication::InitAppFMsUIAsync::__l2::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<CApplication::FastModelUIValues,0>::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<CApplication::FastModelUIValues <lambda>(void),CApplication::FastModelUIValues>::_Do_call
+	OneNoteIm.exe!std::_Func_class<CApplication::FastModelUIValues>::operator()
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::LogWorkItemAndInvokeUserLambda<std::function<CApplication::FastModelUIValues __cdecl(void)> >
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::Init
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::_Perform
+	OneNoteIm.exe!opplx::details::_PPLTaskHandle<CApplication::FastModelUIValues,Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>,opplx::details::_TaskProcHandle>::invoke
+	OneNoteIm.exe!opplx::details::_Task_impl_base::_ScheduleTask::__l3::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<void,1>::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<void <lambda>(void),void>::_Do_call
+	OneNoteIm.exe!std::_Func_class<void>::operator()
+	OneNoteIm.exe!Mso::Details::FunctionObjectWrapper<std::function<void __cdecl(void)>,void>::Invoke
+	Mso20Imm.dll!Mso::Functor<void __cdecl(void)>::operator()
+	Mso20Imm.dll!Mso::Async::BatchImpl::BatchWorkerCallback::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!FastModel::Details::ContextCallbackWrapper::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::SequentialDispatchQueueBase::InvokeCore
+	Mso20Imm.dll!Mso::Async::UIDispatchQueue::Invoke
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessInvokeItem
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessMessage
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::WaitAndProcessMessagesInternal
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessEvents
+	Windows.UI.Xaml.dll!CJupiterWindow::RunCoreWindowMessageLoop
+	[Inline Frame] Windows.UI.Xaml.dll!CJupiterControl::RunMessageLoop
+	Windows.UI.Xaml.dll!DirectUI::DXamlCore::RunMessageLoop
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationView::Run
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationViewAgileContainer::RuntimeClassInitialize::__l2::<lambda>
+	SHCore.dll!_WrapperThreadProc
+	kernel32.dll!BaseThreadInitThunk
+	ntdll.dll!RtlUserThreadStart
+	
+'OneNoteIm.exe' (Win32): Unloaded 'C:\Windows\System32\Windows.Security.Authentication.Web.Core.dll'
+000 2
+Office.UI.Xaml.OneNote.dll!Platform::Details::ControlBlock::DecrementStrongReference
+	Office.UI.Xaml.OneNote.dll!__abi_FTMWeakRefData::Decrement
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Platform::Object]::__abi_Release
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::ComPtr<DirectUI::DependencyObject>::InternalRelease
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::ComPtr<DirectUI::DependencyObject>::{dtor}
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DependencyObject::NotifyPropertyChanged
+	[Inline Frame] Windows.UI.Xaml.dll!CFxCallbacks::DependencyObject_NotifyPropertyChanged
+	[Inline Frame] Windows.UI.Xaml.dll!CDependencyObject::NotifyPropertyChanged
+	Windows.UI.Xaml.dll!CDependencyObject::SetEffectiveValue
+	Windows.UI.Xaml.dll!CDependencyObject::UpdateEffectiveValue
+	Windows.UI.Xaml.dll!CDependencyObject::SetValue
+	Windows.UI.Xaml.dll!CUIElement::SetValue
+	Windows.UI.Xaml.dll!CFrameworkElement::SetValue
+	Windows.UI.Xaml.dll!CControl::SetValue
+	Windows.UI.Xaml.dll!CUserControl::SetValue
+	Windows.UI.Xaml.dll!CDependencyObject::SetValue
+	Windows.UI.Xaml.dll!XamlNativeRuntime::SetValue
+	[Inline Frame] Windows.UI.Xaml.dll!XamlProperty::SetValue
+	Windows.UI.Xaml.dll!ObjectWriterRuntime::SetValueImpl
+	Windows.UI.Xaml.dll!ObjectWriterRuntime::StoreSourceInformationHelper
+	[Inline Frame] Windows.UI.Xaml.dll!ObjectWriterRuntime::BeginInitImpl
+	[Inline Frame] Windows.UI.Xaml.dll!ObjectWriterCommonRuntime::BeginInit
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::BeginInitOnCurrentInstance
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::WriteNode
+	Windows.UI.Xaml.dll!CParser::LoadXamlCore
+	[Inline Frame] Windows.UI.Xaml.dll!CParser::LoadXaml
+	Windows.UI.Xaml.dll!CCoreServices::ParseXamlWithExistingFrameworkRoot
+	Windows.UI.Xaml.dll!CApplication::LoadComponent
+	Windows.UI.Xaml.dll!Application_LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplication::LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocationImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocation
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::IApplicationStatics::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::Application::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Office::UI::Xaml::OneNote::__ICentralPanelPublicNonVirtuals]::InitializeComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::InitializeOXamlComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::CentralPanel
+	Office.UI.Xaml.OneNote.dll!ActivateType_Office_UI_Xaml_OneNote_CentralPanel
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::ActivateInstance
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::__abi_Windows_UI_Xaml_Markup_IXamlType____abi_ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::LoadContent
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::GetContent
+	Windows.UI.Xaml.dll!DirectUI::Frame::PerformNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::StartNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	OneNoteIm.exe!CApplication::NavigateFrame
+	OneNoteIm.exe!CApplication::InitAppFMsUIAsync::__l2::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<CApplication::FastModelUIValues,0>::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<CApplication::FastModelUIValues <lambda>(void),CApplication::FastModelUIValues>::_Do_call
+	OneNoteIm.exe!std::_Func_class<CApplication::FastModelUIValues>::operator()
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::LogWorkItemAndInvokeUserLambda<std::function<CApplication::FastModelUIValues __cdecl(void)> >
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::Init
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::_Perform
+	OneNoteIm.exe!opplx::details::_PPLTaskHandle<CApplication::FastModelUIValues,Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>,opplx::details::_TaskProcHandle>::invoke
+	OneNoteIm.exe!opplx::details::_Task_impl_base::_ScheduleTask::__l3::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<void,1>::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<void <lambda>(void),void>::_Do_call
+	OneNoteIm.exe!std::_Func_class<void>::operator()
+	OneNoteIm.exe!Mso::Details::FunctionObjectWrapper<std::function<void __cdecl(void)>,void>::Invoke
+	Mso20Imm.dll!Mso::Functor<void __cdecl(void)>::operator()
+	Mso20Imm.dll!Mso::Async::BatchImpl::BatchWorkerCallback::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!FastModel::Details::ContextCallbackWrapper::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::SequentialDispatchQueueBase::InvokeCore
+	Mso20Imm.dll!Mso::Async::UIDispatchQueue::Invoke
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessInvokeItem
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessMessage
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::WaitAndProcessMessagesInternal
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessEvents
+	Windows.UI.Xaml.dll!CJupiterWindow::RunCoreWindowMessageLoop
+	[Inline Frame] Windows.UI.Xaml.dll!CJupiterControl::RunMessageLoop
+	Windows.UI.Xaml.dll!DirectUI::DXamlCore::RunMessageLoop
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationView::Run
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationViewAgileContainer::RuntimeClassInitialize::__l2::<lambda>
+	SHCore.dll!_WrapperThreadProc
+	kernel32.dll!BaseThreadInitThunk
+	ntdll.dll!RtlUserThreadStart
+	
+000 3
+Office.UI.Xaml.OneNote.dll!Platform::Details::ControlBlock::IncrementStrongReference
+	Office.UI.Xaml.OneNote.dll!__abi_FTMWeakRefData::Increment
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Platform::Object]::__abi_AddRef
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::addref_interface
+	Windows.UI.Xaml.dll!DirectUI::DXamlCore::GetPeerPrivate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DXamlCore::GetPeerPrivate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DXamlCore::GetPeerPrivate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DXamlCore::TryGetPeer
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DependencyObject::NotifyPropertyChanged
+	[Inline Frame] Windows.UI.Xaml.dll!CFxCallbacks::DependencyObject_NotifyPropertyChanged
+	[Inline Frame] Windows.UI.Xaml.dll!CDependencyObject::NotifyPropertyChanged
+	Windows.UI.Xaml.dll!CDependencyObject::SetEffectiveValue
+	Windows.UI.Xaml.dll!CDependencyObject::UpdateEffectiveValue
+	Windows.UI.Xaml.dll!CDependencyObject::SetValue
+	Windows.UI.Xaml.dll!CUIElement::SetValue
+	Windows.UI.Xaml.dll!CFrameworkElement::SetValue
+	Windows.UI.Xaml.dll!CControl::SetValue
+	Windows.UI.Xaml.dll!CUserControl::SetValue
+	Windows.UI.Xaml.dll!CDependencyObject::SetValue
+	Windows.UI.Xaml.dll!XamlNativeRuntime::SetValue
+	[Inline Frame] Windows.UI.Xaml.dll!XamlProperty::SetValue
+	Windows.UI.Xaml.dll!ObjectWriterRuntime::SetValueImpl
+	Windows.UI.Xaml.dll!ObjectWriterRuntime::StoreSourceInformationHelper
+	[Inline Frame] Windows.UI.Xaml.dll!ObjectWriterRuntime::BeginInitImpl
+	[Inline Frame] Windows.UI.Xaml.dll!ObjectWriterCommonRuntime::BeginInit
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::BeginInitOnCurrentInstance
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::WriteNode
+	Windows.UI.Xaml.dll!CParser::LoadXamlCore
+	[Inline Frame] Windows.UI.Xaml.dll!CParser::LoadXaml
+	Windows.UI.Xaml.dll!CCoreServices::ParseXamlWithExistingFrameworkRoot
+	Windows.UI.Xaml.dll!CApplication::LoadComponent
+	Windows.UI.Xaml.dll!Application_LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplication::LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocationImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocation
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::IApplicationStatics::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::Application::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Office::UI::Xaml::OneNote::__ICentralPanelPublicNonVirtuals]::InitializeComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::InitializeOXamlComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::CentralPanel
+	Office.UI.Xaml.OneNote.dll!ActivateType_Office_UI_Xaml_OneNote_CentralPanel
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::ActivateInstance
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::__abi_Windows_UI_Xaml_Markup_IXamlType____abi_ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::LoadContent
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::GetContent
+	Windows.UI.Xaml.dll!DirectUI::Frame::PerformNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::StartNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	OneNoteIm.exe!CApplication::NavigateFrame
+	OneNoteIm.exe!CApplication::InitAppFMsUIAsync::__l2::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<CApplication::FastModelUIValues,0>::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<CApplication::FastModelUIValues <lambda>(void),CApplication::FastModelUIValues>::_Do_call
+	OneNoteIm.exe!std::_Func_class<CApplication::FastModelUIValues>::operator()
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::LogWorkItemAndInvokeUserLambda<std::function<CApplication::FastModelUIValues __cdecl(void)> >
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::Init
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::_Perform
+	OneNoteIm.exe!opplx::details::_PPLTaskHandle<CApplication::FastModelUIValues,Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>,opplx::details::_TaskProcHandle>::invoke
+	OneNoteIm.exe!opplx::details::_Task_impl_base::_ScheduleTask::__l3::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<void,1>::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<void <lambda>(void),void>::_Do_call
+	OneNoteIm.exe!std::_Func_class<void>::operator()
+	OneNoteIm.exe!Mso::Details::FunctionObjectWrapper<std::function<void __cdecl(void)>,void>::Invoke
+	Mso20Imm.dll!Mso::Functor<void __cdecl(void)>::operator()
+	Mso20Imm.dll!Mso::Async::BatchImpl::BatchWorkerCallback::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!FastModel::Details::ContextCallbackWrapper::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::SequentialDispatchQueueBase::InvokeCore
+	Mso20Imm.dll!Mso::Async::UIDispatchQueue::Invoke
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessInvokeItem
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessMessage
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::WaitAndProcessMessagesInternal
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessEvents
+	Windows.UI.Xaml.dll!CJupiterWindow::RunCoreWindowMessageLoop
+	[Inline Frame] Windows.UI.Xaml.dll!CJupiterControl::RunMessageLoop
+	Windows.UI.Xaml.dll!DirectUI::DXamlCore::RunMessageLoop
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationView::Run
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationViewAgileContainer::RuntimeClassInitialize::__l2::<lambda>
+	SHCore.dll!_WrapperThreadProc
+	kernel32.dll!BaseThreadInitThunk
+	ntdll.dll!RtlUserThreadStart
+	
+000 2
+Office.UI.Xaml.OneNote.dll!Platform::Details::ControlBlock::DecrementStrongReference
+	Office.UI.Xaml.OneNote.dll!__abi_FTMWeakRefData::Decrement
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Platform::Object]::__abi_Release
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::ComPtr<DirectUI::DependencyObject>::InternalRelease
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::ComPtr<DirectUI::DependencyObject>::{dtor}
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DependencyObject::NotifyPropertyChanged
+	[Inline Frame] Windows.UI.Xaml.dll!CFxCallbacks::DependencyObject_NotifyPropertyChanged
+	[Inline Frame] Windows.UI.Xaml.dll!CDependencyObject::NotifyPropertyChanged
+	Windows.UI.Xaml.dll!CDependencyObject::SetEffectiveValue
+	Windows.UI.Xaml.dll!CDependencyObject::UpdateEffectiveValue
+	Windows.UI.Xaml.dll!CDependencyObject::SetValue
+	Windows.UI.Xaml.dll!CUIElement::SetValue
+	Windows.UI.Xaml.dll!CFrameworkElement::SetValue
+	Windows.UI.Xaml.dll!CControl::SetValue
+	Windows.UI.Xaml.dll!CUserControl::SetValue
+	Windows.UI.Xaml.dll!CDependencyObject::SetValue
+	Windows.UI.Xaml.dll!XamlNativeRuntime::SetValue
+	[Inline Frame] Windows.UI.Xaml.dll!XamlProperty::SetValue
+	Windows.UI.Xaml.dll!ObjectWriterRuntime::SetValueImpl
+	Windows.UI.Xaml.dll!ObjectWriterRuntime::StoreSourceInformationHelper
+	[Inline Frame] Windows.UI.Xaml.dll!ObjectWriterRuntime::BeginInitImpl
+	[Inline Frame] Windows.UI.Xaml.dll!ObjectWriterCommonRuntime::BeginInit
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::BeginInitOnCurrentInstance
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::WriteNode
+	Windows.UI.Xaml.dll!CParser::LoadXamlCore
+	[Inline Frame] Windows.UI.Xaml.dll!CParser::LoadXaml
+	Windows.UI.Xaml.dll!CCoreServices::ParseXamlWithExistingFrameworkRoot
+	Windows.UI.Xaml.dll!CApplication::LoadComponent
+	Windows.UI.Xaml.dll!Application_LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplication::LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocationImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocation
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::IApplicationStatics::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::Application::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Office::UI::Xaml::OneNote::__ICentralPanelPublicNonVirtuals]::InitializeComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::InitializeOXamlComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::CentralPanel
+	Office.UI.Xaml.OneNote.dll!ActivateType_Office_UI_Xaml_OneNote_CentralPanel
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::ActivateInstance
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::__abi_Windows_UI_Xaml_Markup_IXamlType____abi_ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::LoadContent
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::GetContent
+	Windows.UI.Xaml.dll!DirectUI::Frame::PerformNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::StartNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	OneNoteIm.exe!CApplication::NavigateFrame
+	OneNoteIm.exe!CApplication::InitAppFMsUIAsync::__l2::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<CApplication::FastModelUIValues,0>::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<CApplication::FastModelUIValues <lambda>(void),CApplication::FastModelUIValues>::_Do_call
+	OneNoteIm.exe!std::_Func_class<CApplication::FastModelUIValues>::operator()
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::LogWorkItemAndInvokeUserLambda<std::function<CApplication::FastModelUIValues __cdecl(void)> >
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::Init
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::_Perform
+	OneNoteIm.exe!opplx::details::_PPLTaskHandle<CApplication::FastModelUIValues,Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>,opplx::details::_TaskProcHandle>::invoke
+	OneNoteIm.exe!opplx::details::_Task_impl_base::_ScheduleTask::__l3::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<void,1>::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<void <lambda>(void),void>::_Do_call
+	OneNoteIm.exe!std::_Func_class<void>::operator()
+	OneNoteIm.exe!Mso::Details::FunctionObjectWrapper<std::function<void __cdecl(void)>,void>::Invoke
+	Mso20Imm.dll!Mso::Functor<void __cdecl(void)>::operator()
+	Mso20Imm.dll!Mso::Async::BatchImpl::BatchWorkerCallback::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!FastModel::Details::ContextCallbackWrapper::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::SequentialDispatchQueueBase::InvokeCore
+	Mso20Imm.dll!Mso::Async::UIDispatchQueue::Invoke
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessInvokeItem
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessMessage
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::WaitAndProcessMessagesInternal
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessEvents
+	Windows.UI.Xaml.dll!CJupiterWindow::RunCoreWindowMessageLoop
+	[Inline Frame] Windows.UI.Xaml.dll!CJupiterControl::RunMessageLoop
+	Windows.UI.Xaml.dll!DirectUI::DXamlCore::RunMessageLoop
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationView::Run
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationViewAgileContainer::RuntimeClassInitialize::__l2::<lambda>
+	SHCore.dll!_WrapperThreadProc
+	kernel32.dll!BaseThreadInitThunk
+	ntdll.dll!RtlUserThreadStart
+	
+000 3
+Office.UI.Xaml.OneNote.dll!Platform::Details::ControlBlock::IncrementStrongReference
+	Office.UI.Xaml.OneNote.dll!__abi_FTMWeakRefData::Increment
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Platform::Object]::__abi_AddRef
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::addref_interface
+	Windows.UI.Xaml.dll!DirectUI::DXamlCore::GetPeerPrivate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DXamlCore::GetPeerPrivate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DXamlCore::GetPeerPrivate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DXamlCore::TryGetPeer
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DependencyObject::NotifyPropertyChanged
+	[Inline Frame] Windows.UI.Xaml.dll!CFxCallbacks::DependencyObject_NotifyPropertyChanged
+	[Inline Frame] Windows.UI.Xaml.dll!CDependencyObject::NotifyPropertyChanged
+	Windows.UI.Xaml.dll!CDependencyObject::SetEffectiveValue
+	Windows.UI.Xaml.dll!CDependencyObject::UpdateEffectiveValue
+	Windows.UI.Xaml.dll!CDependencyObject::SetValue
+	Windows.UI.Xaml.dll!CUIElement::SetValue
+	Windows.UI.Xaml.dll!CFrameworkElement::SetValue
+	Windows.UI.Xaml.dll!CControl::SetValue
+	Windows.UI.Xaml.dll!CUserControl::SetValue
+	Windows.UI.Xaml.dll!CDependencyObject::SetValue
+	Windows.UI.Xaml.dll!XamlNativeRuntime::SetValue
+	[Inline Frame] Windows.UI.Xaml.dll!XamlProperty::SetValue
+	Windows.UI.Xaml.dll!ObjectWriterRuntime::SetValueImpl
+	Windows.UI.Xaml.dll!ObjectWriterRuntime::StoreSourceInformationHelper
+	[Inline Frame] Windows.UI.Xaml.dll!ObjectWriterRuntime::BeginInitImpl
+	[Inline Frame] Windows.UI.Xaml.dll!ObjectWriterCommonRuntime::BeginInit
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::BeginInitOnCurrentInstance
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::WriteNode
+	Windows.UI.Xaml.dll!CParser::LoadXamlCore
+	[Inline Frame] Windows.UI.Xaml.dll!CParser::LoadXaml
+	Windows.UI.Xaml.dll!CCoreServices::ParseXamlWithExistingFrameworkRoot
+	Windows.UI.Xaml.dll!CApplication::LoadComponent
+	Windows.UI.Xaml.dll!Application_LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplication::LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocationImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocation
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::IApplicationStatics::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::Application::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Office::UI::Xaml::OneNote::__ICentralPanelPublicNonVirtuals]::InitializeComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::InitializeOXamlComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::CentralPanel
+	Office.UI.Xaml.OneNote.dll!ActivateType_Office_UI_Xaml_OneNote_CentralPanel
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::ActivateInstance
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::__abi_Windows_UI_Xaml_Markup_IXamlType____abi_ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::LoadContent
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::GetContent
+	Windows.UI.Xaml.dll!DirectUI::Frame::PerformNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::StartNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	OneNoteIm.exe!CApplication::NavigateFrame
+	OneNoteIm.exe!CApplication::InitAppFMsUIAsync::__l2::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<CApplication::FastModelUIValues,0>::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<CApplication::FastModelUIValues <lambda>(void),CApplication::FastModelUIValues>::_Do_call
+	OneNoteIm.exe!std::_Func_class<CApplication::FastModelUIValues>::operator()
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::LogWorkItemAndInvokeUserLambda<std::function<CApplication::FastModelUIValues __cdecl(void)> >
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::Init
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::_Perform
+	OneNoteIm.exe!opplx::details::_PPLTaskHandle<CApplication::FastModelUIValues,Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>,opplx::details::_TaskProcHandle>::invoke
+	OneNoteIm.exe!opplx::details::_Task_impl_base::_ScheduleTask::__l3::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<void,1>::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<void <lambda>(void),void>::_Do_call
+	OneNoteIm.exe!std::_Func_class<void>::operator()
+	OneNoteIm.exe!Mso::Details::FunctionObjectWrapper<std::function<void __cdecl(void)>,void>::Invoke
+	Mso20Imm.dll!Mso::Functor<void __cdecl(void)>::operator()
+	Mso20Imm.dll!Mso::Async::BatchImpl::BatchWorkerCallback::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!FastModel::Details::ContextCallbackWrapper::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::SequentialDispatchQueueBase::InvokeCore
+	Mso20Imm.dll!Mso::Async::UIDispatchQueue::Invoke
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessInvokeItem
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessMessage
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::WaitAndProcessMessagesInternal
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessEvents
+	Windows.UI.Xaml.dll!CJupiterWindow::RunCoreWindowMessageLoop
+	[Inline Frame] Windows.UI.Xaml.dll!CJupiterControl::RunMessageLoop
+	Windows.UI.Xaml.dll!DirectUI::DXamlCore::RunMessageLoop
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationView::Run
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationViewAgileContainer::RuntimeClassInitialize::__l2::<lambda>
+	SHCore.dll!_WrapperThreadProc
+	kernel32.dll!BaseThreadInitThunk
+	ntdll.dll!RtlUserThreadStart
+	
+000 2
+Office.UI.Xaml.OneNote.dll!Platform::Details::ControlBlock::DecrementStrongReference
+	Office.UI.Xaml.OneNote.dll!__abi_FTMWeakRefData::Decrement
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Platform::Object]::__abi_Release
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::ComPtr<DirectUI::DependencyObject>::InternalRelease
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::ComPtr<DirectUI::DependencyObject>::{dtor}
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DependencyObject::NotifyPropertyChanged
+	[Inline Frame] Windows.UI.Xaml.dll!CFxCallbacks::DependencyObject_NotifyPropertyChanged
+	[Inline Frame] Windows.UI.Xaml.dll!CDependencyObject::NotifyPropertyChanged
+	Windows.UI.Xaml.dll!CDependencyObject::SetEffectiveValue
+	Windows.UI.Xaml.dll!CDependencyObject::UpdateEffectiveValue
+	Windows.UI.Xaml.dll!CDependencyObject::SetValue
+	Windows.UI.Xaml.dll!CUIElement::SetValue
+	Windows.UI.Xaml.dll!CFrameworkElement::SetValue
+	Windows.UI.Xaml.dll!CControl::SetValue
+	Windows.UI.Xaml.dll!CUserControl::SetValue
+	Windows.UI.Xaml.dll!CDependencyObject::SetValue
+	Windows.UI.Xaml.dll!XamlNativeRuntime::SetValue
+	[Inline Frame] Windows.UI.Xaml.dll!XamlProperty::SetValue
+	Windows.UI.Xaml.dll!ObjectWriterRuntime::SetValueImpl
+	Windows.UI.Xaml.dll!ObjectWriterRuntime::StoreSourceInformationHelper
+	[Inline Frame] Windows.UI.Xaml.dll!ObjectWriterRuntime::BeginInitImpl
+	[Inline Frame] Windows.UI.Xaml.dll!ObjectWriterCommonRuntime::BeginInit
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::BeginInitOnCurrentInstance
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::WriteNode
+	Windows.UI.Xaml.dll!CParser::LoadXamlCore
+	[Inline Frame] Windows.UI.Xaml.dll!CParser::LoadXaml
+	Windows.UI.Xaml.dll!CCoreServices::ParseXamlWithExistingFrameworkRoot
+	Windows.UI.Xaml.dll!CApplication::LoadComponent
+	Windows.UI.Xaml.dll!Application_LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplication::LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocationImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocation
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::IApplicationStatics::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::Application::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Office::UI::Xaml::OneNote::__ICentralPanelPublicNonVirtuals]::InitializeComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::InitializeOXamlComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::CentralPanel
+	Office.UI.Xaml.OneNote.dll!ActivateType_Office_UI_Xaml_OneNote_CentralPanel
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::ActivateInstance
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::__abi_Windows_UI_Xaml_Markup_IXamlType____abi_ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::LoadContent
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::GetContent
+	Windows.UI.Xaml.dll!DirectUI::Frame::PerformNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::StartNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	OneNoteIm.exe!CApplication::NavigateFrame
+	OneNoteIm.exe!CApplication::InitAppFMsUIAsync::__l2::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<CApplication::FastModelUIValues,0>::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<CApplication::FastModelUIValues <lambda>(void),CApplication::FastModelUIValues>::_Do_call
+	OneNoteIm.exe!std::_Func_class<CApplication::FastModelUIValues>::operator()
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::LogWorkItemAndInvokeUserLambda<std::function<CApplication::FastModelUIValues __cdecl(void)> >
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::Init
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::_Perform
+	OneNoteIm.exe!opplx::details::_PPLTaskHandle<CApplication::FastModelUIValues,Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>,opplx::details::_TaskProcHandle>::invoke
+	OneNoteIm.exe!opplx::details::_Task_impl_base::_ScheduleTask::__l3::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<void,1>::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<void <lambda>(void),void>::_Do_call
+	OneNoteIm.exe!std::_Func_class<void>::operator()
+	OneNoteIm.exe!Mso::Details::FunctionObjectWrapper<std::function<void __cdecl(void)>,void>::Invoke
+	Mso20Imm.dll!Mso::Functor<void __cdecl(void)>::operator()
+	Mso20Imm.dll!Mso::Async::BatchImpl::BatchWorkerCallback::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!FastModel::Details::ContextCallbackWrapper::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::SequentialDispatchQueueBase::InvokeCore
+	Mso20Imm.dll!Mso::Async::UIDispatchQueue::Invoke
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessInvokeItem
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessMessage
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::WaitAndProcessMessagesInternal
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessEvents
+	Windows.UI.Xaml.dll!CJupiterWindow::RunCoreWindowMessageLoop
+	[Inline Frame] Windows.UI.Xaml.dll!CJupiterControl::RunMessageLoop
+	Windows.UI.Xaml.dll!DirectUI::DXamlCore::RunMessageLoop
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationView::Run
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationViewAgileContainer::RuntimeClassInitialize::__l2::<lambda>
+	SHCore.dll!_WrapperThreadProc
+	kernel32.dll!BaseThreadInitThunk
+	ntdll.dll!RtlUserThreadStart
+	
+000 3
+Office.UI.Xaml.OneNote.dll!Platform::Details::ControlBlock::IncrementStrongReference
+	Office.UI.Xaml.OneNote.dll!__abi_FTMWeakRefData::Increment
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Platform::Object]::__abi_AddRef
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::addref_interface
+	Windows.UI.Xaml.dll!DirectUI::DXamlCore::GetPeerPrivate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DXamlCore::GetPeerPrivate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DXamlCore::GetPeerPrivate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DXamlCore::TryGetPeer
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DependencyObject::NotifyPropertyChanged
+	[Inline Frame] Windows.UI.Xaml.dll!CFxCallbacks::DependencyObject_NotifyPropertyChanged
+	[Inline Frame] Windows.UI.Xaml.dll!CDependencyObject::NotifyPropertyChanged
+	Windows.UI.Xaml.dll!CDependencyObject::SetEffectiveValue
+	Windows.UI.Xaml.dll!CDependencyObject::UpdateEffectiveValue
+	Windows.UI.Xaml.dll!CDependencyObject::SetValue
+	Windows.UI.Xaml.dll!CUIElement::SetValue
+	Windows.UI.Xaml.dll!CFrameworkElement::SetValue
+	Windows.UI.Xaml.dll!CControl::SetValue
+	Windows.UI.Xaml.dll!CUserControl::SetValue
+	Windows.UI.Xaml.dll!CDependencyObject::SetValue
+	Windows.UI.Xaml.dll!XamlNativeRuntime::SetValue
+	[Inline Frame] Windows.UI.Xaml.dll!XamlProperty::SetValue
+	Windows.UI.Xaml.dll!ObjectWriterRuntime::SetValueImpl
+	Windows.UI.Xaml.dll!ObjectWriterRuntime::StoreSourceInformationHelper
+	[Inline Frame] Windows.UI.Xaml.dll!ObjectWriterRuntime::BeginInitImpl
+	[Inline Frame] Windows.UI.Xaml.dll!ObjectWriterCommonRuntime::BeginInit
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::BeginInitOnCurrentInstance
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::WriteNode
+	Windows.UI.Xaml.dll!CParser::LoadXamlCore
+	[Inline Frame] Windows.UI.Xaml.dll!CParser::LoadXaml
+	Windows.UI.Xaml.dll!CCoreServices::ParseXamlWithExistingFrameworkRoot
+	Windows.UI.Xaml.dll!CApplication::LoadComponent
+	Windows.UI.Xaml.dll!Application_LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplication::LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocationImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocation
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::IApplicationStatics::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::Application::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Office::UI::Xaml::OneNote::__ICentralPanelPublicNonVirtuals]::InitializeComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::InitializeOXamlComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::CentralPanel
+	Office.UI.Xaml.OneNote.dll!ActivateType_Office_UI_Xaml_OneNote_CentralPanel
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::ActivateInstance
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::__abi_Windows_UI_Xaml_Markup_IXamlType____abi_ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::LoadContent
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::GetContent
+	Windows.UI.Xaml.dll!DirectUI::Frame::PerformNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::StartNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	OneNoteIm.exe!CApplication::NavigateFrame
+	OneNoteIm.exe!CApplication::InitAppFMsUIAsync::__l2::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<CApplication::FastModelUIValues,0>::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<CApplication::FastModelUIValues <lambda>(void),CApplication::FastModelUIValues>::_Do_call
+	OneNoteIm.exe!std::_Func_class<CApplication::FastModelUIValues>::operator()
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::LogWorkItemAndInvokeUserLambda<std::function<CApplication::FastModelUIValues __cdecl(void)> >
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::Init
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::_Perform
+	OneNoteIm.exe!opplx::details::_PPLTaskHandle<CApplication::FastModelUIValues,Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>,opplx::details::_TaskProcHandle>::invoke
+	OneNoteIm.exe!opplx::details::_Task_impl_base::_ScheduleTask::__l3::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<void,1>::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<void <lambda>(void),void>::_Do_call
+	OneNoteIm.exe!std::_Func_class<void>::operator()
+	OneNoteIm.exe!Mso::Details::FunctionObjectWrapper<std::function<void __cdecl(void)>,void>::Invoke
+	Mso20Imm.dll!Mso::Functor<void __cdecl(void)>::operator()
+	Mso20Imm.dll!Mso::Async::BatchImpl::BatchWorkerCallback::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!FastModel::Details::ContextCallbackWrapper::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::SequentialDispatchQueueBase::InvokeCore
+	Mso20Imm.dll!Mso::Async::UIDispatchQueue::Invoke
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessInvokeItem
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessMessage
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::WaitAndProcessMessagesInternal
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessEvents
+	Windows.UI.Xaml.dll!CJupiterWindow::RunCoreWindowMessageLoop
+	[Inline Frame] Windows.UI.Xaml.dll!CJupiterControl::RunMessageLoop
+	Windows.UI.Xaml.dll!DirectUI::DXamlCore::RunMessageLoop
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationView::Run
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationViewAgileContainer::RuntimeClassInitialize::__l2::<lambda>
+	SHCore.dll!_WrapperThreadProc
+	kernel32.dll!BaseThreadInitThunk
+	ntdll.dll!RtlUserThreadStart
+	
+000 2
+Office.UI.Xaml.OneNote.dll!Platform::Details::ControlBlock::DecrementStrongReference
+	Office.UI.Xaml.OneNote.dll!__abi_FTMWeakRefData::Decrement
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Platform::Object]::__abi_Release
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::ComPtr<DirectUI::DependencyObject>::InternalRelease
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::ComPtr<DirectUI::DependencyObject>::{dtor}
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DependencyObject::NotifyPropertyChanged
+	[Inline Frame] Windows.UI.Xaml.dll!CFxCallbacks::DependencyObject_NotifyPropertyChanged
+	[Inline Frame] Windows.UI.Xaml.dll!CDependencyObject::NotifyPropertyChanged
+	Windows.UI.Xaml.dll!CDependencyObject::SetEffectiveValue
+	Windows.UI.Xaml.dll!CDependencyObject::UpdateEffectiveValue
+	Windows.UI.Xaml.dll!CDependencyObject::SetValue
+	Windows.UI.Xaml.dll!CUIElement::SetValue
+	Windows.UI.Xaml.dll!CFrameworkElement::SetValue
+	Windows.UI.Xaml.dll!CControl::SetValue
+	Windows.UI.Xaml.dll!CUserControl::SetValue
+	Windows.UI.Xaml.dll!CDependencyObject::SetValue
+	Windows.UI.Xaml.dll!XamlNativeRuntime::SetValue
+	[Inline Frame] Windows.UI.Xaml.dll!XamlProperty::SetValue
+	Windows.UI.Xaml.dll!ObjectWriterRuntime::SetValueImpl
+	Windows.UI.Xaml.dll!ObjectWriterRuntime::StoreSourceInformationHelper
+	[Inline Frame] Windows.UI.Xaml.dll!ObjectWriterRuntime::BeginInitImpl
+	[Inline Frame] Windows.UI.Xaml.dll!ObjectWriterCommonRuntime::BeginInit
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::BeginInitOnCurrentInstance
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::WriteNode
+	Windows.UI.Xaml.dll!CParser::LoadXamlCore
+	[Inline Frame] Windows.UI.Xaml.dll!CParser::LoadXaml
+	Windows.UI.Xaml.dll!CCoreServices::ParseXamlWithExistingFrameworkRoot
+	Windows.UI.Xaml.dll!CApplication::LoadComponent
+	Windows.UI.Xaml.dll!Application_LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplication::LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocationImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocation
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::IApplicationStatics::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::Application::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Office::UI::Xaml::OneNote::__ICentralPanelPublicNonVirtuals]::InitializeComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::InitializeOXamlComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::CentralPanel
+	Office.UI.Xaml.OneNote.dll!ActivateType_Office_UI_Xaml_OneNote_CentralPanel
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::ActivateInstance
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::__abi_Windows_UI_Xaml_Markup_IXamlType____abi_ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::LoadContent
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::GetContent
+	Windows.UI.Xaml.dll!DirectUI::Frame::PerformNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::StartNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	OneNoteIm.exe!CApplication::NavigateFrame
+	OneNoteIm.exe!CApplication::InitAppFMsUIAsync::__l2::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<CApplication::FastModelUIValues,0>::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<CApplication::FastModelUIValues <lambda>(void),CApplication::FastModelUIValues>::_Do_call
+	OneNoteIm.exe!std::_Func_class<CApplication::FastModelUIValues>::operator()
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::LogWorkItemAndInvokeUserLambda<std::function<CApplication::FastModelUIValues __cdecl(void)> >
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::Init
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::_Perform
+	OneNoteIm.exe!opplx::details::_PPLTaskHandle<CApplication::FastModelUIValues,Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>,opplx::details::_TaskProcHandle>::invoke
+	OneNoteIm.exe!opplx::details::_Task_impl_base::_ScheduleTask::__l3::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<void,1>::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<void <lambda>(void),void>::_Do_call
+	OneNoteIm.exe!std::_Func_class<void>::operator()
+	OneNoteIm.exe!Mso::Details::FunctionObjectWrapper<std::function<void __cdecl(void)>,void>::Invoke
+	Mso20Imm.dll!Mso::Functor<void __cdecl(void)>::operator()
+	Mso20Imm.dll!Mso::Async::BatchImpl::BatchWorkerCallback::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!FastModel::Details::ContextCallbackWrapper::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::SequentialDispatchQueueBase::InvokeCore
+	Mso20Imm.dll!Mso::Async::UIDispatchQueue::Invoke
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessInvokeItem
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessMessage
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::WaitAndProcessMessagesInternal
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessEvents
+	Windows.UI.Xaml.dll!CJupiterWindow::RunCoreWindowMessageLoop
+	[Inline Frame] Windows.UI.Xaml.dll!CJupiterControl::RunMessageLoop
+	Windows.UI.Xaml.dll!DirectUI::DXamlCore::RunMessageLoop
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationView::Run
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationViewAgileContainer::RuntimeClassInitialize::__l2::<lambda>
+	SHCore.dll!_WrapperThreadProc
+	kernel32.dll!BaseThreadInitThunk
+	ntdll.dll!RtlUserThreadStart
+	
+The thread 0x33a4 has exited with code 0 (0x0).
+000 3
+Office.UI.Xaml.OneNote.dll!Platform::Details::ControlBlock::IncrementStrongReference
+	Office.UI.Xaml.OneNote.dll!__abi_FTMWeakRefData::Increment
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Platform::Object]::__abi_AddRef
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::addref_interface
+	Windows.UI.Xaml.dll!DirectUI::DXamlCore::GetPeerPrivate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DXamlCore::GetPeerPrivate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DXamlCore::GetPeerPrivate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DXamlCore::GetPeer
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::DXamlServices::GetPeer
+	Windows.UI.Xaml.dll!DirectUI::CValueBoxer::UnboxObjectValue
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::CValueBoxer::UnboxObjectValue
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::CValueBoxer::UnboxObjectValue
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::XamlQualifiedObject::GetValue
+	Windows.UI.Xaml.dll!DirectUI::XamlParserCallbacks::XamlManagedRuntimeRPInvokes_SetConnectionId
+	[Inline Frame] Windows.UI.Xaml.dll!CFxCallbacks::XamlManagedRuntimeRPInvokes_SetConnectionId
+	Windows.UI.Xaml.dll!XamlManagedRuntime::SetConnectionId
+	Windows.UI.Xaml.dll!ObjectWriterRuntime::SetConnectionIdImpl
+	[Inline Frame] Windows.UI.Xaml.dll!ObjectWriterCommonRuntime::SetConnectionId
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::SetConnectionIdOnCurrentInstance
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::WriteNode
+	Windows.UI.Xaml.dll!CParser::LoadXamlCore
+	[Inline Frame] Windows.UI.Xaml.dll!CParser::LoadXaml
+	Windows.UI.Xaml.dll!CCoreServices::ParseXamlWithExistingFrameworkRoot
+	Windows.UI.Xaml.dll!CApplication::LoadComponent
+	Windows.UI.Xaml.dll!Application_LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplication::LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocationImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocation
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::IApplicationStatics::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::Application::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Office::UI::Xaml::OneNote::__ICentralPanelPublicNonVirtuals]::InitializeComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::InitializeOXamlComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::CentralPanel
+	Office.UI.Xaml.OneNote.dll!ActivateType_Office_UI_Xaml_OneNote_CentralPanel
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::ActivateInstance
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::__abi_Windows_UI_Xaml_Markup_IXamlType____abi_ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::LoadContent
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::GetContent
+	Windows.UI.Xaml.dll!DirectUI::Frame::PerformNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::StartNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	OneNoteIm.exe!CApplication::NavigateFrame
+	OneNoteIm.exe!CApplication::InitAppFMsUIAsync::__l2::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<CApplication::FastModelUIValues,0>::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<CApplication::FastModelUIValues <lambda>(void),CApplication::FastModelUIValues>::_Do_call
+	OneNoteIm.exe!std::_Func_class<CApplication::FastModelUIValues>::operator()
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::LogWorkItemAndInvokeUserLambda<std::function<CApplication::FastModelUIValues __cdecl(void)> >
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::Init
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::_Perform
+	OneNoteIm.exe!opplx::details::_PPLTaskHandle<CApplication::FastModelUIValues,Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>,opplx::details::_TaskProcHandle>::invoke
+	OneNoteIm.exe!opplx::details::_Task_impl_base::_ScheduleTask::__l3::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<void,1>::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<void <lambda>(void),void>::_Do_call
+	OneNoteIm.exe!std::_Func_class<void>::operator()
+	OneNoteIm.exe!Mso::Details::FunctionObjectWrapper<std::function<void __cdecl(void)>,void>::Invoke
+	Mso20Imm.dll!Mso::Functor<void __cdecl(void)>::operator()
+	Mso20Imm.dll!Mso::Async::BatchImpl::BatchWorkerCallback::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!FastModel::Details::ContextCallbackWrapper::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::SequentialDispatchQueueBase::InvokeCore
+	Mso20Imm.dll!Mso::Async::UIDispatchQueue::Invoke
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessInvokeItem
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessMessage
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::WaitAndProcessMessagesInternal
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessEvents
+	Windows.UI.Xaml.dll!CJupiterWindow::RunCoreWindowMessageLoop
+	[Inline Frame] Windows.UI.Xaml.dll!CJupiterControl::RunMessageLoop
+	Windows.UI.Xaml.dll!DirectUI::DXamlCore::RunMessageLoop
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationView::Run
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationViewAgileContainer::RuntimeClassInitialize::__l2::<lambda>
+	SHCore.dll!_WrapperThreadProc
+	kernel32.dll!BaseThreadInitThunk
+	ntdll.dll!RtlUserThreadStart
+	
+'OneNoteIm.exe' (Win32): Unloaded 'C:\Windows\System32\mlang.dll'
+000 4
+Office.UI.Xaml.OneNote.dll!Platform::Details::ControlBlock::IncrementStrongReference
+	Office.UI.Xaml.OneNote.dll!__abi_FTMWeakRefData::Increment
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Platform::Object]::__abi_AddRef
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::CValueBoxer::UnwrapExternalObjectReferenceIfPresent
+	Windows.UI.Xaml.dll!DirectUI::CValueBoxer::UnboxObjectValue
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::CValueBoxer::UnboxObjectValue
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::CValueBoxer::UnboxObjectValue
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::XamlQualifiedObject::GetValue
+	Windows.UI.Xaml.dll!DirectUI::XamlParserCallbacks::XamlManagedRuntimeRPInvokes_SetConnectionId
+	[Inline Frame] Windows.UI.Xaml.dll!CFxCallbacks::XamlManagedRuntimeRPInvokes_SetConnectionId
+	Windows.UI.Xaml.dll!XamlManagedRuntime::SetConnectionId
+	Windows.UI.Xaml.dll!ObjectWriterRuntime::SetConnectionIdImpl
+	[Inline Frame] Windows.UI.Xaml.dll!ObjectWriterCommonRuntime::SetConnectionId
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::SetConnectionIdOnCurrentInstance
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::WriteNode
+	Windows.UI.Xaml.dll!CParser::LoadXamlCore
+	[Inline Frame] Windows.UI.Xaml.dll!CParser::LoadXaml
+	Windows.UI.Xaml.dll!CCoreServices::ParseXamlWithExistingFrameworkRoot
+	Windows.UI.Xaml.dll!CApplication::LoadComponent
+	Windows.UI.Xaml.dll!Application_LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplication::LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocationImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocation
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::IApplicationStatics::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::Application::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Office::UI::Xaml::OneNote::__ICentralPanelPublicNonVirtuals]::InitializeComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::InitializeOXamlComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::CentralPanel
+	Office.UI.Xaml.OneNote.dll!ActivateType_Office_UI_Xaml_OneNote_CentralPanel
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::ActivateInstance
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::__abi_Windows_UI_Xaml_Markup_IXamlType____abi_ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::LoadContent
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::GetContent
+	Windows.UI.Xaml.dll!DirectUI::Frame::PerformNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::StartNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	OneNoteIm.exe!CApplication::NavigateFrame
+	OneNoteIm.exe!CApplication::InitAppFMsUIAsync::__l2::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<CApplication::FastModelUIValues,0>::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<CApplication::FastModelUIValues <lambda>(void),CApplication::FastModelUIValues>::_Do_call
+	OneNoteIm.exe!std::_Func_class<CApplication::FastModelUIValues>::operator()
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::LogWorkItemAndInvokeUserLambda<std::function<CApplication::FastModelUIValues __cdecl(void)> >
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::Init
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::_Perform
+	OneNoteIm.exe!opplx::details::_PPLTaskHandle<CApplication::FastModelUIValues,Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>,opplx::details::_TaskProcHandle>::invoke
+	OneNoteIm.exe!opplx::details::_Task_impl_base::_ScheduleTask::__l3::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<void,1>::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<void <lambda>(void),void>::_Do_call
+	OneNoteIm.exe!std::_Func_class<void>::operator()
+	OneNoteIm.exe!Mso::Details::FunctionObjectWrapper<std::function<void __cdecl(void)>,void>::Invoke
+	Mso20Imm.dll!Mso::Functor<void __cdecl(void)>::operator()
+	Mso20Imm.dll!Mso::Async::BatchImpl::BatchWorkerCallback::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!FastModel::Details::ContextCallbackWrapper::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::SequentialDispatchQueueBase::InvokeCore
+	Mso20Imm.dll!Mso::Async::UIDispatchQueue::Invoke
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessInvokeItem
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessMessage
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::WaitAndProcessMessagesInternal
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessEvents
+	Windows.UI.Xaml.dll!CJupiterWindow::RunCoreWindowMessageLoop
+	[Inline Frame] Windows.UI.Xaml.dll!CJupiterControl::RunMessageLoop
+	Windows.UI.Xaml.dll!DirectUI::DXamlCore::RunMessageLoop
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationView::Run
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationViewAgileContainer::RuntimeClassInitialize::__l2::<lambda>
+	SHCore.dll!_WrapperThreadProc
+	kernel32.dll!BaseThreadInitThunk
+	ntdll.dll!RtlUserThreadStart
+	
+000 3
+Office.UI.Xaml.OneNote.dll!Platform::Details::ControlBlock::DecrementStrongReference
+	Office.UI.Xaml.OneNote.dll!__abi_FTMWeakRefData::Decrement
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Platform::Object]::__abi_Release
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::ComPtr<DirectUI::DependencyObject>::InternalRelease
+	[Inline Frame] Windows.UI.Xaml.dll!ctl::ComPtr<DirectUI::DependencyObject>::{dtor}
+	Windows.UI.Xaml.dll!DirectUI::CValueBoxer::UnboxObjectValue
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::CValueBoxer::UnboxObjectValue
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::CValueBoxer::UnboxObjectValue
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::XamlQualifiedObject::GetValue
+	Windows.UI.Xaml.dll!DirectUI::XamlParserCallbacks::XamlManagedRuntimeRPInvokes_SetConnectionId
+	[Inline Frame] Windows.UI.Xaml.dll!CFxCallbacks::XamlManagedRuntimeRPInvokes_SetConnectionId
+	Windows.UI.Xaml.dll!XamlManagedRuntime::SetConnectionId
+	Windows.UI.Xaml.dll!ObjectWriterRuntime::SetConnectionIdImpl
+	[Inline Frame] Windows.UI.Xaml.dll!ObjectWriterCommonRuntime::SetConnectionId
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::SetConnectionIdOnCurrentInstance
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::WriteNode
+	Windows.UI.Xaml.dll!CParser::LoadXamlCore
+	[Inline Frame] Windows.UI.Xaml.dll!CParser::LoadXaml
+	Windows.UI.Xaml.dll!CCoreServices::ParseXamlWithExistingFrameworkRoot
+	Windows.UI.Xaml.dll!CApplication::LoadComponent
+	Windows.UI.Xaml.dll!Application_LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplication::LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocationImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocation
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::IApplicationStatics::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::Application::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Office::UI::Xaml::OneNote::__ICentralPanelPublicNonVirtuals]::InitializeComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::InitializeOXamlComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::CentralPanel
+	Office.UI.Xaml.OneNote.dll!ActivateType_Office_UI_Xaml_OneNote_CentralPanel
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::ActivateInstance
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::__abi_Windows_UI_Xaml_Markup_IXamlType____abi_ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::LoadContent
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::GetContent
+	Windows.UI.Xaml.dll!DirectUI::Frame::PerformNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::StartNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	OneNoteIm.exe!CApplication::NavigateFrame
+	OneNoteIm.exe!CApplication::InitAppFMsUIAsync::__l2::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<CApplication::FastModelUIValues,0>::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<CApplication::FastModelUIValues <lambda>(void),CApplication::FastModelUIValues>::_Do_call
+	OneNoteIm.exe!std::_Func_class<CApplication::FastModelUIValues>::operator()
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::LogWorkItemAndInvokeUserLambda<std::function<CApplication::FastModelUIValues __cdecl(void)> >
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::Init
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::_Perform
+	OneNoteIm.exe!opplx::details::_PPLTaskHandle<CApplication::FastModelUIValues,Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>,opplx::details::_TaskProcHandle>::invoke
+	OneNoteIm.exe!opplx::details::_Task_impl_base::_ScheduleTask::__l3::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<void,1>::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<void <lambda>(void),void>::_Do_call
+	OneNoteIm.exe!std::_Func_class<void>::operator()
+	OneNoteIm.exe!Mso::Details::FunctionObjectWrapper<std::function<void __cdecl(void)>,void>::Invoke
+	Mso20Imm.dll!Mso::Functor<void __cdecl(void)>::operator()
+	Mso20Imm.dll!Mso::Async::BatchImpl::BatchWorkerCallback::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!FastModel::Details::ContextCallbackWrapper::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::SequentialDispatchQueueBase::InvokeCore
+	Mso20Imm.dll!Mso::Async::UIDispatchQueue::Invoke
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessInvokeItem
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessMessage
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::WaitAndProcessMessagesInternal
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessEvents
+	Windows.UI.Xaml.dll!CJupiterWindow::RunCoreWindowMessageLoop
+	[Inline Frame] Windows.UI.Xaml.dll!CJupiterControl::RunMessageLoop
+	Windows.UI.Xaml.dll!DirectUI::DXamlCore::RunMessageLoop
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationView::Run
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationViewAgileContainer::RuntimeClassInitialize::__l2::<lambda>
+	SHCore.dll!_WrapperThreadProc
+	kernel32.dll!BaseThreadInitThunk
+	ntdll.dll!RtlUserThreadStart
+	
+000 4
+Office.UI.Xaml.OneNote.dll!Platform::Details::ControlBlock::IncrementStrongReference
+	Office.UI.Xaml.OneNote.dll!__abi_FTMWeakRefData::Increment
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Platform::Object]::__abi_QueryInterface
+	Windows.UI.Xaml.dll!DirectUI::CValueBoxer::UnboxObjectValue
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::CValueBoxer::UnboxObjectValue
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::CValueBoxer::UnboxObjectValue
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::XamlQualifiedObject::GetValue
+	Windows.UI.Xaml.dll!DirectUI::XamlParserCallbacks::XamlManagedRuntimeRPInvokes_SetConnectionId
+	[Inline Frame] Windows.UI.Xaml.dll!CFxCallbacks::XamlManagedRuntimeRPInvokes_SetConnectionId
+	Windows.UI.Xaml.dll!XamlManagedRuntime::SetConnectionId
+	Windows.UI.Xaml.dll!ObjectWriterRuntime::SetConnectionIdImpl
+	[Inline Frame] Windows.UI.Xaml.dll!ObjectWriterCommonRuntime::SetConnectionId
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::SetConnectionIdOnCurrentInstance
+	Windows.UI.Xaml.dll!BinaryFormatObjectWriter::WriteNode
+	Windows.UI.Xaml.dll!CParser::LoadXamlCore
+	[Inline Frame] Windows.UI.Xaml.dll!CParser::LoadXaml
+	Windows.UI.Xaml.dll!CCoreServices::ParseXamlWithExistingFrameworkRoot
+	Windows.UI.Xaml.dll!CApplication::LoadComponent
+	Windows.UI.Xaml.dll!Application_LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplication::LoadComponent
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocationImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameworkApplicationFactory::LoadComponentWithResourceLocation
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::IApplicationStatics::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Windows::UI::Xaml::Application::LoadComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::[Office::UI::Xaml::OneNote::__ICentralPanelPublicNonVirtuals]::InitializeComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::InitializeOXamlComponent
+	Office.UI.Xaml.OneNote.dll!Office::UI::Xaml::OneNote::CentralPanel::CentralPanel
+	Office.UI.Xaml.OneNote.dll!ActivateType_Office_UI_Xaml_OneNote_CentralPanel
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::ActivateInstance
+	Office.UI.Xaml.OneNote.dll!XamlTypeInfo::InfoProvider::XamlUserType::[Windows::UI::Xaml::Markup::IXamlType]::__abi_Windows_UI_Xaml_Markup_IXamlType____abi_ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::ActivationAPI::ActivateInstance
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::LoadContent
+	Windows.UI.Xaml.dll!DirectUI::NavigationCache::GetContent
+	Windows.UI.Xaml.dll!DirectUI::Frame::PerformNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::StartNavigation
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	[Inline Frame] Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	Windows.UI.Xaml.dll!DirectUI::Frame::NavigateImpl
+	Windows.UI.Xaml.dll!DirectUI::FrameGenerated::Navigate
+	OneNoteIm.exe!CApplication::NavigateFrame
+	OneNoteIm.exe!CApplication::InitAppFMsUIAsync::__l2::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<CApplication::FastModelUIValues,0>::_Call<CApplication::FastModelUIValues <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<CApplication::FastModelUIValues <lambda>(void),CApplication::FastModelUIValues>::_Do_call
+	OneNoteIm.exe!std::_Func_class<CApplication::FastModelUIValues>::operator()
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::LogWorkItemAndInvokeUserLambda<std::function<CApplication::FastModelUIValues __cdecl(void)> >
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::Init
+	OneNoteIm.exe!Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>::_Perform
+	OneNoteIm.exe!opplx::details::_PPLTaskHandle<CApplication::FastModelUIValues,Mso::LegacyFuture<CApplication::FastModelUIValues>::InitialFutureHandle<CApplication::FastModelUIValues,CApplication::FastModelUIValues <lambda>(void),opplx::details::_TypeSelectorNoAsync>,opplx::details::_TaskProcHandle>::invoke
+	OneNoteIm.exe!opplx::details::_Task_impl_base::_ScheduleTask::__l3::<lambda>
+	OneNoteIm.exe!std::_Invoker_functor::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::invoke<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Invoker_ret<void,1>::_Call<void <lambda>(void) & __ptr64>
+	OneNoteIm.exe!std::_Func_impl_no_alloc<void <lambda>(void),void>::_Do_call
+	OneNoteIm.exe!std::_Func_class<void>::operator()
+	OneNoteIm.exe!Mso::Details::FunctionObjectWrapper<std::function<void __cdecl(void)>,void>::Invoke
+	Mso20Imm.dll!Mso::Functor<void __cdecl(void)>::operator()
+	Mso20Imm.dll!Mso::Async::BatchImpl::BatchWorkerCallback::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!FastModel::Details::ContextCallbackWrapper::Invoke
+	Mso20Imm.dll!Mso::Async::CallbackContext::InvokeCallback
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::InvokeInCallbackContext
+	Mso20Imm.dll!Mso::Async::SequentialDispatchQueueBase::InvokeCore
+	Mso20Imm.dll!Mso::Async::UIDispatchQueue::Invoke
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessInvokeItem
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessMessage
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::WaitAndProcessMessagesInternal
+	Windows.UI.dll!Windows::UI::Core::CDispatcher::ProcessEvents
+	Windows.UI.Xaml.dll!CJupiterWindow::RunCoreWindowMessageLoop
+	[Inline Frame] Windows.UI.Xaml.dll!CJupiterControl::RunMessageLoop
+	Windows.UI.Xaml.dll!DirectUI::DXamlCore::RunMessageLoop
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationView::Run
+	twinapi.appcore.dll!Windows::ApplicationModel::Core::CoreApplicationViewAgileContainer::RuntimeClassInitialize::__l2::<lambda>
+	SHCore.dll!_WrapperThreadProc
+	kernel32.dll!BaseThreadInitThunk
+	ntdll.dll!RtlUserThreadStart
+	

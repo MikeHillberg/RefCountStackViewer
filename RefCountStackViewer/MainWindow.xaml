@@ -1,0 +1,194 @@
+﻿<Window x:Class="RefCountStackViewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RefCountStackViewer"
+        mc:Ignorable="d"
+        Title="Ref Count Stack Viewer" >
+    <Window.Resources>
+        <ContextMenu x:Key="ContextMenu">
+            <MenuItem Header="Find end" Click="FindEnd"/>
+        </ContextMenu>
+
+    </Window.Resources>
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+            <Button Click="Open" HorizontalAlignment="Left">Open trace file</Button>
+            <!--<Button Margin="10,0,0,0" IsEnabled="False">Trace file formatting info ...</Button>-->
+            <StackPanel Margin="10,0,0,0">
+                <TextBlock FontWeight="Bold">Example debugger commands to create trace:</TextBlock>
+                <RichTextBox IsReadOnly="True" Width="400">
+                    <FlowDocument>
+                        <Paragraph>
+                            <Run>.lines -d</Run>
+                            <LineBreak/>
+                            <Run>ba w 4</Run>
+                            <Italic>address</Italic> ".echo;dd
+                            <Italic>address</Italic> l1;k 1000;g"
+                        </Paragraph>
+                    </FlowDocument>
+                </RichTextBox>
+            </StackPanel>
+        </StackPanel>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" MaxWidth="800" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+
+            <!-- Master -->
+            <Border Visibility="{Binding IsOpen}" BorderThickness="0,0,2,0" BorderBrush="Black" Margin="10,0,0,0" Padding="0,0,10,0">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <TextBlock Margin="0,10,0,10" FontWeight="Bold" FontSize="16">Ref count changes 
+                        (<Run Text="{Binding RefCountUpdates.Count, Mode=OneWay}"/> of <Run Text="{Binding TotalRefCountUpdates, Mode=OneWay}"/>)
+                        </TextBlock>
+
+                        <TreeView ItemsSource="{Binding RefCountUpdates}" 
+                             Grid.Row="1"
+                              AlternationCount="1"
+                     Name="Master"
+                         BorderThickness="0"
+                     MinWidth="150" 
+                              SelectedItemChanged="Master_SelectedItemChanged"
+                     ScrollViewer.HorizontalScrollBarVisibility="Disabled" ItemContainerStyle="{DynamicResource TreeViewItemStyle1}">
+
+
+                            <TreeView.Resources>
+                                <HierarchicalDataTemplate DataType="{x:Type local:RefCountGroup}" ItemsSource="{Binding RefCountUpdates}">
+                                    <Border Padding="0,5,0,5">
+                                        <StackPanel >
+                                            <TextBlock Text="{Binding RefCount}"/>
+                                            <TextBlock TextWrapping="Wrap"><Run Text="{Binding Description, Mode=OneWay}"/></TextBlock>
+                                        </StackPanel>
+                                    </Border>
+
+                                </HierarchicalDataTemplate>
+
+                                <DataTemplate DataType="{x:Type local:RefCountUpdate}">
+                                    <Border Padding="0,10,0,10">
+                                        <TextBlock Text="{Binding RefCount}" />
+                                    </Border>
+                                </DataTemplate>
+
+                            </TreeView.Resources>
+
+                        </TreeView>
+                    </Grid>
+            </Border>
+
+            <Grid Grid.Column="1" Name="DetailRoot" Visibility="Collapsed" Margin="4,0,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <StackPanel Orientation="Horizontal">
+                    <Button Click="Collapse" Margin="0,0,10,0">Collapse</Button>
+                    <Button Click="Expand" Margin="0,0,10,0">Expand</Button>
+                    <Button Click="CollapseEvery" Margin="0,0,10,0">Collapse every</Button>
+                </StackPanel>
+
+
+                <Grid Grid.Row="1">
+                    <Grid Visibility="{Binding StackFramesListDetailVisibility}">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <StackPanel>
+                            <TextBlock FontWeight="Bold" FontSize="16" Margin="0,10,0,10">Call stack of ref count change</TextBlock>
+                            <TextBlock>Ref count: <Run Text="{Binding Detail.RefCount}"/></TextBlock>
+                            <TextBlock>Line number in trace: <Run Text="{Binding Detail.LineNumber, Mode=OneWay}"/></TextBlock>
+                        </StackPanel>
+
+                        <ListBox ItemsSource="{Binding Detail.StackFrames}" Name="_stackFramesList"
+                                 Grid.Row="1"
+                             Margin="0,10,0,0">
+                            <ListBox.Resources>
+                                <DataTemplate DataType="{x:Type local:StackFrame}">
+                                    <local:StackFrameView StackFrame="{Binding}" />
+                                </DataTemplate>
+
+                            </ListBox.Resources>
+                        </ListBox>
+                    </Grid>
+
+                    <Grid  Visibility="{Binding StackGroupDetailVisibility}" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <StackPanel>
+                            <TextBlock FontWeight="Bold" FontSize="16" Margin="0,10,0,10">Group of ref count changes</TextBlock>
+                            <TextBlock xml:space="preserve">This is a group of <Run Text="{Binding Detail.TotalInGroup, Mode=OneWay}" /> ref count changes that have the following stack frames in common.</TextBlock>
+                            <TextBlock>Ending ref count: <Run Text="{Binding Detail.RefCount, Mode=OneWay}"/></TextBlock>
+                        </StackPanel>
+
+                        <Grid Grid.Row="1" Margin="0,10,0,0" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <ListBox 
+                                 ItemsSource="{Binding Detail.StackFrames, Mode=OneWay}" 
+                                 Name="_stackGroupList"
+                                 DisplayMemberPath="Method"
+                                     >
+
+                            </ListBox>
+
+                            <!--<Grid Grid.Column="1" Margin="10,0,10,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Text="Ref count changes in this group" />
+
+                                <TreeView ItemsSource="{Binding Detail.RefCountUpdates}"  
+                                          Grid.Row="1"
+                                     MaxWidth="300">
+                                    <TreeView.ItemTemplate>
+                                        <HierarchicalDataTemplate ItemsSource="{Binding StackFrames}">
+                                            <TextBlock> 
+                                            <Run Text="{Binding RefCount, Mode=OneTime}" />
+                                            <Run Text="{Binding StackFrames[0].Method, Mode=OneTime}" />
+                                            </TextBlock>
+
+                                            <HierarchicalDataTemplate.ItemTemplate>
+                                                <DataTemplate>
+                                                    <TextBlock Text="{Binding Method}" />
+                                                </DataTemplate>
+                                            </HierarchicalDataTemplate.ItemTemplate>
+                                        </HierarchicalDataTemplate>
+                                    </TreeView.ItemTemplate>
+                                </TreeView>
+                            </Grid>-->
+                            
+                        </Grid>
+                    </Grid>
+                </Grid>
+
+                <TextBox IsReadOnly="True" Grid.Row="2" Text="{Binding SelectedItem.TimeTravelPosition, Mode=OneWay, ElementName=Master}" />
+            </Grid>
+
+        </Grid>
+
+    </Grid>
+</Window>
